@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../images/bg-desktop.svg') no-repeat;
+    background-color: #674BB1;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+main {
+    display: flex;
+}
+
+.secaoa {
+    display: flex;
+    flex-direction: column;
+}
+
+.huddle {
+    max-width: 180px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.img-principal {
+    width: 555px;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+.secaob {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.secaob .diva {}
+
+.secaob .diva h2 {
+    font-size: 2rem;
+    margin-top: 220px;
+}
+
+.secaob .diva p {
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
+.secaob .diva button {
+    color: #6D638B;
+    border-radius: 50px;
+    width: 160px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.secaob .social {
+    display: flex;
+    margin-left: 50px;
+    justify-content: flex-end;
+    margin-top: auto;
+}
+
+.envolve {
+    border: solid 1px white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social a {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+@media(max-width: 375px) {
+    body {
+        background: url('../images/bg-mobile.svg') no-repeat;
+        background-color: #674BB1;
+        background-size: 100%;
+        position: relative;
+    }
+
+    main {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-principal {
+        width: 300px;
+        margin-top: 80px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .secaob {
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .secaob .diva {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .secaob .diva h2 {
+        margin-top: 10px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .secaob .diva p {
+        text-align: center;
+    }
+
+    .secaob .diva button {
+        height: 40px;
+        margin-top: 40px;
+    }
+
+    .secaob .social {
+        margin: 50px auto;
+    }
+}
